@@ -59,7 +59,7 @@ footer {
   align-items: center;
 }
 
-.home-buttons  {
+button  {
   background: green;
   color: white;
   border-radius: 5px;
@@ -67,8 +67,7 @@ footer {
   padding: 15px;
   font-size: 1.25em;
 }
-
-.home-buttons:hover {
+button:hover {
   background: white;
   color: green;
   border: 2px solid green;
