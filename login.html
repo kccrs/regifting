@@ -9,19 +9,32 @@
   </head>
   <body>
     <header>
-      <h1 class="title">Thanks for Nothing!</h1>
+      <h1>Thanks for Nothing!</h1>
     </header>
+    <canvas id="snow">
 
-    <section class="hero-section">
+    <section class="hero">
       <h2 class="tagline">We care if they don't</h2>
-      <article class="slideshow">
-        <img class="mySlides" src="assets/flowbee.jpg">
-        <img class="mySlides" src="assets/pants_stretching.jpg">
-        <img class="mySlides" src="assets/traumatize_book.jpg">
-        <img class="mySlides" src="assets/handerpants.jpg">
-      </article>
     </section>
 
+    </canvas>
+
+    <main class="setup-main-container">
+      <h2 class="login-header">Login</h2>
+
+      <form>
+        <input type="text" placeholder="First Name"/>
+        <input type="text" placeholder="Last Name"/>
+        <input type="email" placeholder="Email Address"/>
+        <input type="text" placeholder="Home Address"/>
+        <input type="number" placeholder="Phone Number"/>
+        <textarea>
+          Worst gift ever?
+        </textarea>
+      </form>
+
+
+    </main>
     <footer>
       <a href="login.html"><button class="home-buttons">Login</button></a>
       <a href="#"><button class="home-buttons">Track</button></a>
@@ -29,8 +42,6 @@
       <a href="index.html"><button>Home</button></a>
     </footer>
 
-    <canvas id="snow">
-    </canvas>
     <script src="scripts.js"></script>
   </body>
 </html>
