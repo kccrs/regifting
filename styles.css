@@ -2,24 +2,24 @@ body {
   font-family: 'Mountains of Christmas', cursive;
 }
 
-/*header {
-  display: flex;
+header {
+  /*display: flex;*/
+  background-color: white;
   position: absolute;
   top: 0;
-  background: red;
   height: 100px;
   width: 100vw;
-}*/
+}
 
 canvas {
   background-color: #c3062c;
 }
 
-
 h1 {
-  margin: auto;
   font-weight: 700;
   font-size: 3em;
+  padding-top: 25px;
+  text-align: center;
 }
 
 footer {
@@ -28,6 +28,6 @@ footer {
   bottom: 0;
   height: 100px;
   width: 100vw;
-  background: red;
   justify-content: space-around;
+  /*z-index: 1;*/
 }

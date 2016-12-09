@@ -111,4 +111,4 @@ window.onload = function() {
       render();
     })();
   } createSnow();
-}
+};
