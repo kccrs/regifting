@@ -29,8 +29,24 @@ footer {
 
 .setup-main-container {
   text-align: center;
+  overflow: scroll;
 }
 
 .setup-header {
-  margin: 140px auto;
+  font-size: 28px;
+  margin: 110px auto 40px auto;
+}
+
+.setup-section {
+  overflow: scroll;
+}
+.setup-page-subheader {
+  font-size: 24px;
+}
+
+.part-one-body {
+  margin: 10px auto;
+  max-width: 50vw;
+  text-align: center;
+  overflow: scroll;
 }
