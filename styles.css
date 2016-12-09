@@ -27,6 +27,11 @@ h1 {
   text-align: center;
 }
 
+.text-input {
+  display: block;
+  margin: 20px auto;
+}
+
 .hero-section {
   /*background: url(assets/bad-pet.jpg) center;
   background-size: cover;*/
@@ -63,13 +68,13 @@ footer {
 
 }
 
-.setup-main-container {
+.setup-main-container, .login-main-container {
   text-align: center;
   overflow: scroll;
   height: 800px;
 }
 
-.setup-header {
+.setup-header, .login-header {
   font-size: 28px;
   margin: 110px auto 40px auto;
 }
@@ -86,4 +91,14 @@ footer {
   max-width: 50vw;
   text-align: center;
   overflow: scroll;
+}
+
+textarea, label {
+    display: block;
+    text-align: center;
+    margin:  20px auto;
+}
+
+.bottom-buttons {
+  margin: 20px auto;
 }
