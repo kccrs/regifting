@@ -12,6 +12,7 @@ header {
 
 canvas {
   background-color: #c3062c;
+  z-index: 2;
 }
 
 h1 {
@@ -22,8 +23,7 @@ h1 {
 }
 
 .hero {
-  background: url(assets/bad-pet.jpg) center;
-  background-size: cover;
+  z-index: 1;
   margin-top: 150px;
   height: 50vh;
   display: flex;
