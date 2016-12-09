@@ -2,14 +2,19 @@ body {
   font-family: 'Mountains of Christmas', cursive;
 }
 
-header {
+/*header {
   display: flex;
   position: absolute;
   top: 0;
   background: red;
   height: 100px;
   width: 100vw;
+}*/
+
+canvas {
+  background-color: #c3062c;
 }
+
 
 h1 {
   margin: auto;
