@@ -1,0 +1,28 @@
+body {
+  font-family: 'Mountains of Christmas', cursive;
+}
+
+header {
+  display: flex;
+  position: absolute;
+  top: 0;
+  background: red;
+  height: 100px;
+  width: 100vw;
+}
+
+h1 {
+  margin: auto;
+  font-weight: 700;
+  font-size: 3em;
+}
+
+footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  width: 100vw;
+  background: red;
+  justify-content: space-around;
+}
