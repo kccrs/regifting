@@ -59,24 +59,25 @@ footer {
   align-items: center;
 }
 
-.home-buttons  {
+/*.home-buttons  {
 
-}
+}*/
 
 .setup-main-container {
+  height: 100%;
   font-weight: 600;
   text-align: center;
-  overflow: scroll;
+  /*overflow: scroll;*/
 }
 
 .setup-header {
-  font-size: 40px;
-  margin: 110px auto 40px auto;
+  /*font-size: 40px;*/
+  /*margin: 110px auto 40px auto;*/
 }
 
-.setup-section {
+/*.setup-section {
   /*overflow: scroll;*/
-}
+
 .setup-page-subheader {
   font-size: 36px;
 }
