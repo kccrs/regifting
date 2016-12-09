@@ -92,3 +92,13 @@ footer {
   text-align: center;
   overflow: scroll;
 }
+
+textarea, label {
+    display: block;
+    text-align: center;
+    margin:  20px auto;
+}
+
+.bottom-buttons {
+  margin: 20px auto;
+}
