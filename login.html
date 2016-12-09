@@ -19,18 +19,26 @@
 
     </canvas>
 
-    <main class="setup-main-container">
+    <main class="login-main-container">
       <h2 class="login-header">Login</h2>
 
       <form>
-        <input type="text" placeholder="First Name"/>
-        <input type="text" placeholder="Last Name"/>
-        <input type="email" placeholder="Email Address"/>
-        <input type="text" placeholder="Home Address"/>
-        <input type="number" placeholder="Phone Number"/>
+        <input class="text-input" type="text" placeholder="First Name"/>
+        <input class="text-input" type="text" placeholder="Last Name"/>
+        <input class="text-input" type="email" placeholder="Email Address"/>
+        <input class="text-input" type="text" placeholder="Home Address"/>
+        <input class="text-input" type="number" placeholder="Phone Number"/>
         <textarea>
           Worst gift ever?
         </textarea>
+        <label>
+          <input type="radio" name="option"/>Bar Codes Option
+          <input type="radio" name="option"/>Amazon Integration Option
+        </label>
+        <section class="bottom-buttons">
+          <button>Sign in with Amazon</button>
+          <button>Complete Login</button>
+        </section>
       </form>
 
 
