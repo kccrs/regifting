@@ -3,18 +3,22 @@ body {
 }
 
 header {
-  display: flex;
+  background-color: white;
   position: absolute;
   top: 0;
-  background: red;
   height: 100px;
   width: 100vw;
 }
 
-.title {
-  margin: auto;
+canvas {
+  background-color: #c3062c;
+}
+
+h1 {
   font-weight: 700;
   font-size: 3em;
+  padding-top: 25px;
+  text-align: center;
 }
 
 .hero {
@@ -40,7 +44,6 @@ footer {
   bottom: 0;
   height: 100px;
   width: 100vw;
-  background: red;
   justify-content: space-around;
   align-items: center;
 }
