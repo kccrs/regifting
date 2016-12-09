@@ -63,13 +63,13 @@ footer {
 
 }
 
-.setup-main-container {
+.setup-main-container, .login-main-container {
   text-align: center;
   overflow: scroll;
   height: 800px;
 }
 
-.setup-header {
+.setup-header, .login-header {
   font-size: 28px;
   margin: 110px auto 40px auto;
 }
