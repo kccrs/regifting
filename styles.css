@@ -11,10 +11,27 @@ header {
   width: 100vw;
 }
 
-h1 {
+.title {
   margin: auto;
   font-weight: 700;
   font-size: 3em;
+}
+
+.hero {
+  background: url(assets/bad-pet.jpg) center;
+  background-size: cover;
+  margin-top: 150px;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.tagline {
+  text-align: center;
+  color: white;
+  font-size: 5em;
+  font-weight: 700;
+  margin: auto;
 }
 
 footer {
@@ -25,6 +42,11 @@ footer {
   width: 100vw;
   background: red;
   justify-content: space-around;
+  align-items: center;
+}
+
+.home-buttons  {
+
 }
 
 .setup-main-container {
