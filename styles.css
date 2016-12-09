@@ -66,6 +66,7 @@ footer {
 .setup-main-container {
   text-align: center;
   overflow: scroll;
+  height: 800px;
 }
 
 .setup-header {
