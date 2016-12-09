@@ -26,3 +26,11 @@ footer {
   background: red;
   justify-content: space-around;
 }
+
+.setup-main-container {
+  text-align: center;
+}
+
+.setup-header {
+  margin: 140px auto;
+}
