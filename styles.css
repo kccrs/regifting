@@ -28,8 +28,6 @@ h1 {
 }
 
 .hero-section {
-  /*background: url(assets/bad-pet.jpg) center;
-  background-size: cover;*/
   /*background-color: rgba(255, 255, 255, .1);*/
   /*opacity: .1;*/
   margin-top: 150px;
@@ -37,16 +35,18 @@ h1 {
   display: flex;
   align-items: center;
   z-index: 5;
+  display: flex;
+  flex-direction: column;
 }
 
 .tagline {
   text-align: center;
-  /*color: white;*/
-  color: black;
+  color: white;
   opacity: 1;
   font-size: 5em;
   font-weight: 700;
   margin: auto;
+  margin-bottom: 30px;
 }
 
 footer {
@@ -60,7 +60,18 @@ footer {
 }
 
 .home-buttons  {
+  background: green;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 15px;
+  font-size: 1.25em;
+}
 
+.home-buttons:hover {
+  background: white;
+  color: green;
+  border: 2px solid green;
 }
 
 .setup-main-container {
